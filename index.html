@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عید الفطر مبارک</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- صفحہ 1 -->
+    <div id="page1" class="container">
+        <div class="neon-text">عید الفطر مبارک!</div>
+        <button id="startBtn" class="btn">اپنے نام سے کسی دوست کو سینڈ کرنے کے لیے یہاں کلک کریں</button>
+    </div>
+
+    <!-- صفحہ 2 -->
+    <div id="page2" class="container">
+        <h2>اپنا میسج بنائیں</h2>
+        <input type="text" id="userName" placeholder="اپنا نام درج کریں">
+        <select id="relation">
+            <option value="ابو">ابو</option>
+            <option value="امی">امی</option>
+            <option value="بھائی">بھائی</option>
+            <option value="بہن">بہن</option>
+            <option value="دوست">دوست</option>
+        </select>
+        <button id="nextBtn" class="btn">اگلا</button>
+    </div>
+
+    <!-- صفحہ 3 -->
+    <div id="page3" class="container">
+        <div class="neon-text">عید مبارک</div>
+        <div class="message" id="finalMessage"></div>
+        <div class="name" id="displayName"></div>
+        <button id="whatsappBtn" class="btn whatsapp-btn">واٹس ایپ پر شیئر کریں</button>
+        <button id="customizeAgainBtn" class="btn">دوبارہ کسٹمائز کریں</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
